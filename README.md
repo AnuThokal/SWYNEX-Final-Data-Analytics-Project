@@ -20,8 +20,10 @@ This makes the data easy to read and use for quick, informed decisions.
 # Dataset Information :
 
 The messy_clinic_appointments dataset contains 465 hospital patient and billing records across four departments — Neurology, Orthopedics, General and Cardiology — covering 12 months (January to December).
+
 download link: 
-[messy_clinic_appointments](https://raw.githubusercontent.com/AnuThokal/SWYNEX-Final-Data-Analytics-Project/refs/heads/main/messy_clinic_appointments.csv)
+[messy_clinic_appointments.csv](https://raw.githubusercontent.com/AnuThokal/SWYNEX-Final-Data-Analytics-Project/refs/heads/main/messy_clinic_appointments.csv)
+
 
 
 
