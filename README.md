@@ -80,7 +80,8 @@ Revenue was highest in Quarter 1 (1747K) and dropped in Quarter 2 (1327K), a dec
 
 **2.Patient and Revenue dashboard:**
 This Power BI dashboard gives a complete view of hospital revenue and patient data on a single page.
-<img width="1276" height="726" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/68cba2ef-7ba5-4021-bad1-b638f3a44756" 
+
+<img width="1276" height="726" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/54531dcd-4c12-4e99-8f24-64e68e90358b" />
 
 - Sum of Amount (KPI Card) — Shows total revenue earned, ₹6.01629M.
 - Total Patients (KPI Card) — Shows total patients treated, 465.
@@ -93,10 +94,15 @@ This Power BI dashboard gives a complete view of hospital revenue and patient da
 
   ## Key Business Insights :
 -February had the highest revenue (789K) and September the lowest (301K)
+
 -Neurology earns the most (1794K), while Cardiology earns the least (1066K)
+
 -Patient counts are almost equal across departments (109 to 119), so Neurology earns more per patient rather than from higher patient volume
+
 -The top 5 doctors are close in performance, all between 47K and 48K
+
 -Adults (240) and Seniors (212) make up almost all patients; Teenagers are only 13
+
 -Female patients (246) are slightly more than male patients (219)
 
 ## Tools Used:
