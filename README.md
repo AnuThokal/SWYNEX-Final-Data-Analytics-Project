@@ -32,7 +32,21 @@ Before building the dashboard, the raw data was checked and cleaned in Excel and
 - Applied a custom Power Query formula to correct the date column, which had a mix of text, datetime, and multiple regional formats
 - Detected and converted mixed-currency billing amounts (€, £, $) into a single currency
 -  Created an Age Group column from age (0-18, 19-35, 36-60, 60+) and built a Pivot Table showing department-wise patient counts by gender
-- Verified no rows were lost in the process — final dataset: 465 rows, 11 columns
+- Verified no rows were lost in the process — final dataset: 465 rows, 11 columns.
+
+  Before cleaning process:
+  <img width="1920" height="1000" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/fbe916f1-3d84-4efb-9c32-ee7d9750c93d" />
+
+  After cleaning process:
+  <img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/d2d42623-73fe-46c6-b7be-ca33eb1bf985" />
+
+# Analysis:
+Once the data was clean, the following analysis was carried out:
+-Monthly revenue trend — to see which months performed best and worst
+-Department-wise revenue and patient distribution — to compare four departments side by side
+-Top 5 doctors by revenue — to identify the strongest revenue contributors
+-Gender distribution across age groups — Adult, Senior and Teenager
+-Quarter-wise comparison — using Qtr 1 to Qtr 4 filters for deeper exploration.
 
 
 
