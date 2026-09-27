@@ -44,38 +44,48 @@ Before building the dashboard, the raw data was checked and cleaned in Excel and
 Once the data was clean, the following analysis was carried out:
 
 **Monthly Revenue Trend**
+
 <img width="320" height="147" alt="92" src="https://github.com/user-attachments/assets/53f10b69-70e2-424f-b4b9-bbb9c047b22f" />
 
 Revenue moved up and down through the year instead of following one steady direction. It rose from January to February (537K to 789K), then dropped sharply in March and stayed lower through April. From May to August, revenue increased steadily each month, reaching 610K, before falling sharply again in September to the year's lowest point (301K). It picked up again from October to November before dipping slightly in December.
 
 **Department-wise Revenue and Patients**
+
 .<img width="156" height="146" alt="93" src="https://github.com/user-attachments/assets/21a340da-917b-4d5d-a44d-b3b7209a4033" />
 
 Revenue is not equal across departments even though patient numbers are close. Neurology brings in the highest revenue (1794K) and Cardiology the lowest (1066K), a difference of over 700K. But patient counts stay almost the same across all four departments (109 to 119), so the gap comes from higher earnings per patient in Neurology, not more patients
 
 **Top 5 Doctors by Revenue**
+
 <img width="272" height="104" alt="doctor chart" src="https://github.com/user-attachments/assets/2b1dfbd1-ca66-4918-b9c8-863cba64c5fe" />
 
 The top 5 doctors are very close in performance, with only a 1K difference between the highest (Emily Barnes, 48K) and the lowest (Kathryn Young, 47K). This shows revenue is spread evenly among top doctors rather than one person driving most of it.
 
 **Gender Distribution Across Age Groups**
+
 <img width="320" height="125" alt="77" src="https://github.com/user-attachments/assets/565caea3-8e44-4846-abba-884580e56e2a" />
 
 Female patients are higher than male patients in the Adult group (134 vs 106), a positive gap of 28. In the Senior group, the numbers are almost equal (107 female vs 105 male). In the Teenager group, male patients are slightly higher (8 vs 5), though this group is very small overall.
 
 **Quarter-wise Comparison**
+
 <img width="239" height="153" alt="94" src="https://github.com/user-attachments/assets/232ddbf9-15c5-44ea-908b-2b531902e0fd" />
 
 Revenue was highest in Quarter 1 (1747K) and dropped in Quarter 2 (1327K), a decrease of about 420K. It rose again in Quarter 3 (1442K) and continued rising into Quarter 4 (1498K), but stayed below the Quarter 1 level for the rest of the year.
 
 ##  Dashboard :
+
 **1.Data Exploratory analysis dashboard:**
 <img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/d11c91a4-62cb-4e96-8a34-7e644c0e0e78" />
 
 -Month & Department Slicers – Filter the whole dashboard by month or department; every chart updates instantly.
+
 -Patients: Male vs Female – Compares male and female patient counts across Adult, Senior, and Teenager groups.
+
 -Department Wise Total Amount (Waterfall) – Shows each department's share of total billing, building up to the grand total of ₹60,16,286.
+
 -Amount by Quarter – Breaks down billing by quarter, with Qtr1 as the highest at ₹17,48,197.
+
 -Department Wise Patient (Treemap) – Shows patient distribution by department — Neurology and Orthopedics lead with 119 each.
 
 **2.Patient and Revenue dashboard:**
