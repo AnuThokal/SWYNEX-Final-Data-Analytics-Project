@@ -24,6 +24,18 @@ The messy_clinic_appointments dataset contains 465 hospital patient and billing 
 download link: 
 [messy_clinic_appointments.csv](https://raw.githubusercontent.com/AnuThokal/SWYNEX-Final-Data-Analytics-Project/refs/heads/main/messy_clinic_appointments.csv)
 
+# Data Cleaning Process :
+Before building the dashboard, the raw data was checked and cleaned in Excel and Power Query:
+- Removed null and error values found in the dataset
+- Replaced missing values in the gender column with "Not Specified"
+- Standardized inconsistent text casing (male/Male, female/Female)
+- Applied a custom Power Query formula to correct the date column, which had a mix of text, datetime, and multiple regional formats
+- Detected and converted mixed-currency billing amounts (€, £, $) into a single currency
+-  Created an Age Group column from age (0-18, 19-35, 36-60, 60+) and built a Pivot Table showing department-wise patient counts by gender
+- Verified no rows were lost in the process — final dataset: 465 rows, 11 columns
+
+
+
 
 
 
